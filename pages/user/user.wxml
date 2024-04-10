@@ -1,0 +1,80 @@
+<!-- 头像 -->
+<view class="user_info_wrap">
+    <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+        <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+        <view class="user_info">
+            <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+            <view class="user_name">{{userinfo.nickName}}</view>
+        </view>
+    </view>
+    <view wx:else class="user_btn">
+        <navigator url="/pages/login/index">登录</navigator>
+    </view>
+</view>
+<!-- 上面四个 -->
+<view class="user_content">
+    <view class="user_main">
+        <view class="his_wrap">
+            <button open-type="contact" class="btnborder">
+                <view class="iconfont .icon-kefu1-copy" style="font-size: 45rpx;"></view>
+                <view class="guanliyuan_kefu" style="font-size: 30rpx;">联系客服</view>
+            </button>
+            <button open-type="feedback" class="btn2">
+                <view class="iconfont.icon-yijianjianyi-copy" style="font-size: 45rpx;">
+                    <view class="guanliyuan_yijian" style="font-size: 30rpx;">意见反馈</view>
+                </view>
+            </button>
+        </view>
+    </view>
+</view>
+<!-- 下面四个 -->
+<view class="user_content2">
+    <view class="user_main2">
+        <view class="his_wrap2">
+            <navigator url="/pages/inform/index">
+                <view class="iconfont .icon-tongzhi" style="font-size: 45rpx;"></view>
+                <view class="guanliyuan_name" style="font-size: 30rpx;">通知公告</view>
+            </navigator>
+            <navigator url="/pages/help/index">
+                <view class="iconfont.icon-shiyongbangzhu" style="font-size: 45rpx;"></view>
+                <view class="guanliyuan_name" style="font-size: 30rpx;">使用帮助</view>
+            </navigator>
+            <navigator url="/pages/about/ibdex">
+                <view class="iconfont .icon-kefu-copy" style="font-size: 45rpx;"></view>
+                <view class="guanliyuan_name" style="font-size: 30rpx;">关于我们</view>
+            </navigator>
+            <navigator url="/pages/releases/index">
+                <view class="iconfont .icon-wofabude-copy" style="font-size: 45rpx;"></view>
+                <view class="guanliyuan_name" style="font-size: 30rpx;">加入开发</view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<view class="app_info_wrap1">
+    <button open-type="share" class="btn3">
+        <view class="app_info_item" class="iconfont .icon-tuijiangeipengyou " style="width:300rpx; text-align:left; font-size: 40rpx;">
+            推荐给朋友
+        </view>
+    </button>
+</view>
+<view class="app_info_wrap2">
+    <navigator url="/pages/version/index">
+        <!-- <view class="app_info_item" class="iconfont .icon-tuijiangeipengyou" style="font-size: 40rpx;"> -->
+        <view class="app_info_item" class="iconfont .icon-dangqianbanben" style="font-size: 40rpx;">
+            当前版本
+        </view>
+    </navigator>
+</view>
+<view class="app_info_wrap3">
+    <navigator url="/pages/setting/index">
+        <view class="app_info_item" class="iconfont.icon-shezhi1" style="font-size: 40rpx;">
+            设置
+        </view>
+    </navigator>
+</view>
+<view class="app_info_wrap4">
+    <view class="contact" class="iconfont.icon-weixin" style="font-size: 38rpx;">
+        <text class='textShower'>联系客服</text>
+        <text decode="{undefined{true}}" class='textShower'>Wechat:&nbsp;&nbsp;&nbsp;Enovo</text>
+    </view>
+</view>

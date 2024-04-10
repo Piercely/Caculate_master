@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/simplify/simplify",
+    "pages/science/science",
+    "pages/jinzhizhaunhuan/jinzhizhaunhuan",
+    "pages/weijifen/weijifen",
+    "pages/juzhen/juzhen",
+    "pages/jiefangcheng/jiefangcheng",
+    "pages/huajian/huajian",
+    "pages/shuzhishuru/shuzhishuru",
+    "pages/huilvzhuanhuan/huilvzhuanhuan",
+    "pages/geshuijisuan/geshuijisuan",
+    "pages/fangdaijisuan/fangdaijisuan",
+    "pages/chenghujisuan/chenghujisuan",
+    "pages/shijianzhaunhuan/shijianzhaunhuan",
+    "pages/BMIjisuan/BMIjisuan",
+    "pages/kuaijiejian/kuaijiejian",
+    "pages/user/user",
+    "pages/inform/index",
+    "pages/help/index",
+    "pages/about/ibdex",
+    "pages/releases/index",
+    "pages/version/index",
+    "pages/setting/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "计算器工具箱",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",  
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "icons/_home.png",
+        "selectedIconPath": "icons/home.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icons/_my.png",
+        "selectedIconPath": "icons/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

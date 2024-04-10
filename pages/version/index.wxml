@@ -1,0 +1,9 @@
+<view class="container">
+  <text class="title">计算器工具箱</text>
+  <text class="sub-title">当前版本信息</text>
+  <view class="content">
+    <text class="label">版本号:</text>
+    <text class="value">1.0.0</text>
+  </view>
+  <button class="back-btn" bindtap="backToHome">返回主界面</button>
+</view>

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    position: relative;
+    height: 200rpx;
+    text-align: center;
+    line-height: 200rpx;
+    background-color: #fff;
+    z-index: 999;
+  }
+  
+  .header image {
+    width: 120rpx;
+    vertical-align: middle;
+  }
+  
+  .header .title {
+    font-size: 36rpx;
+    color: #333;
+    vertical-align: middle;
+    margin-left: 20rpx;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100rpx;
+    background-color: #fff;
+    padding: 0 20rpx;
+    border-bottom: 1rpx solid #eee;
+  }
+  
+  .item .number {
+    font-size: 32rpx;
+    color: #333;
+    width: 100rpx;
+  }
+  
+  .item .describe {
+    font-size: 28rpx;
+    color: #666;
+    flex: 1;
+  }
+  
+  .hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }

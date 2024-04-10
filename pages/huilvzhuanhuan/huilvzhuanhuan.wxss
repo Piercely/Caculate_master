@@ -1,0 +1,35 @@
+.container {
+    padding: 30rpx;
+  }
+  
+  .form {
+    margin-bottom: 40rpx;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rpx;
+  }
+  
+  .label {
+    width: 80rpx;
+    font-size: 32rpx;
+  }
+  
+  .input {
+    flex: 1;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: right;
+    padding-right: 20rpx;
+    border: 1px solid #ccc;
+    border-radius: 5rpx;
+  }
+  
+  .result {
+    font-size: 40rpx;
+    font-weight: bold;
+    color: #f00;
+    text-align: center;
+  }

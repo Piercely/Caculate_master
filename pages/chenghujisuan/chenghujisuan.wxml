@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="header">Greeting Generator</view>
+  <view class="content">
+    <view class="input-group">
+      <view class="label">Your Name:</view>
+      <input type="text" maxlength="-1" bindinput="onNameInput" />
+    </view>
+    <view class="input-group">
+      <view class="label">Recipient's Name:</view>
+      <input type="text" maxlength="-1" bindinput="onRecipientInput" />
+    </view>
+    <button class="generate-btn" bindtap="generateGreeting">Generate Greeting</button>
+  </view>
+  <view class="footer">{{generatedGreeting}}</view>
+</view>

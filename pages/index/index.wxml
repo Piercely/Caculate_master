@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="sidebar">
+    <view class="button-group">
+      <button class="large-btn warm-gray" bindtap="simpleCalculation">简易计算</button>
+      <button class="large-btn soft-orange" bindtap="scientificCalculation">科学计算</button>
+    </view>
+    <view class="button-group">
+        <button class="large-btn misty-rose" bindtap="shijianzhaunhuan">时间转换</button>
+      <button class="large-btn cool-mint" bindtap="digitalConversion">进制转换</button>
+      <button class="large-btn sandy-brown" bindtap="integralDifferentiation">微积分</button>
+    </view>
+    <view class="button-group">
+      <button class="large-btn deep-magenta" bindtap="matrixOperation">矩阵</button>
+      <button class="large-btn muted-red" bindtap="solvingEquation">解方程</button>
+    </view>
+    <view class="button-group">
+        <button class="large-btn wheat" bindtap="bmijisuan">BMI计算</button>
+      <button class="large-btn faded-rose" bindtap="simplify">化简</button>
+      <button class="large-btn pale-sky" bindtap="valueInput">数值输入</button>
+    </view>
+    <view class="button-group">
+      <button class="large-btn cinnamon" bindtap="huilu">汇率计算</button>
+      <button class="large-btn dove-gray" bindtap="geshui">个税计算</button>
+    </view>
+    <view class="button-group">
+        <button class="large-btn darken-olive" bindtap="kuaijiejian">快捷键</button>
+      <button class="large-btn olive-green" bindtap="fangdai">房贷计算</button>
+      <button class="large-btn lavender-blush" bindtap="chenghu">称呼计算</button>
+    </view>
+  </view>
+  <swiper class="slider" bindchange="swiperChange">
+    <block wx:for="{{ buttons }}" wx:key="{{ index }}" wx:bindtap="handleButtonTap">
+      <swiper-item>
+        <image wx:src="{{ item.image }}" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

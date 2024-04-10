@@ -1,0 +1,7 @@
+<view class="container">
+  <image src="/images/login.jpg" class="icon"></image>
+  <view class="content">
+    <text class="title">{{ title }}</text>
+    <text class="description">{{ description }}</text>
+  </view>
+</view>

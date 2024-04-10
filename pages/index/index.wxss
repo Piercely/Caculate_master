@@ -1,0 +1,93 @@
+/* index.wxss */
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 100%;
+    padding: 5rpx;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .sidebar .large-btn {
+    background-color: #f2f2f2; /* Soft Gray */
+    color: #333;
+    font-size: 16px;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 4px;
+    width: calc(47% - 30px);
+  }
+  
+  .sidebar .large-btn.warm-gray {
+    background-color: #eaeaeb;
+  }
+  
+  .sidebar .large-btn.soft-orange {
+    background-color: #ffdbbc;
+  }
+  
+  .sidebar .large-btn.cool-mint {
+    background-color: #bef2db;
+  }
+  
+  .sidebar .large-btn.sandy-brown {
+    background-color: #f4a261;
+  }
+  
+  .sidebar .large-btn.deep-magenta {
+    background-color: #ea9999;
+  }
+  
+  .sidebar .large-btn.muted-red {
+    background-color: #f08080;
+  }
+  
+  .sidebar .large-btn.faded-rose {
+    background-color: #ffcccc;
+  }
+  
+  .sidebar .large-btn.pale-sky {
+    background-color: #cceeff;
+  }
+  
+  .sidebar .large-btn.cinnamon {
+    background-color: #eecaca;
+  }
+  
+  .sidebar .large-btn.dove-gray {
+    background-color: #dcdcdc;
+  }
+  
+  .sidebar .large-btn.olive-green {
+    background-color: #ccffcc;
+  }
+  
+  .sidebar .large-btn.lavender-blush {
+    background-color: #fff0f5;
+  }
+  
+  .sidebar .large-btn.misty-rose {
+    background-color: #ffe4e4;
+  }
+  
+  .sidebar .large-btn.wheat {
+    background-color: #f5deb3;
+  }
+  
+  .sidebar .large-btn.darken-olive {
+    background-color: #b3cc99;
+  }

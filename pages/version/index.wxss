@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50rpx;
+  }
+  
+  .title {
+    font-size: 36rpx;
+    color: #333;
+    margin-bottom: 20rpx;
+  }
+  
+  .sub-title {
+    font-size: 28rpx;
+    color: #666;
+    margin-bottom: 40rpx;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1rpx solid #ddd;
+    padding: 20rpx 0;
+  }
+  
+  .label {
+    font-size: 28rpx;
+    color: #999;
+  }
+  
+  .value {
+    font-size: 28rpx;
+    color: #333;
+  }
+  
+  .back-btn {
+    background-color: #007AFF;
+    color: #FFFFFF;
+    font-size: 28rpx;
+    padding: 12rpx 40rpx;
+    border-radius: 8rpx;
+    margin-top: 40rpx;
+  }

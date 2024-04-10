@@ -1,0 +1,33 @@
+<view class="container">
+  <text class="title">设置页面</text>
+  
+  <!-- 头像 -->
+  <view class="avatar-wrap">
+    <image src="{{userInfo.avatarUrl}}" class="avatar"></image>
+    <button bindtap="changeAvatar" class="change-btn">更换头像</button>
+  </view>
+  
+  <!-- 昵称 -->
+  <view class="form-item">
+    <text class="label">昵称:</text>
+    <input type="text" value="{{userInfo.nickName}}" placeholder="请输入昵称" bindinput="bindNicknameInput" />
+  </view>
+  
+  <!-- 性别 -->
+  <view class="form-item radio-group">
+    <text class="label">性别:</text>
+    <radio-group name="gender" bindchange="bindGenderChange">
+      <label class="radio-item" for="male">
+        <radio id="male" value="男" checked="{{userInfo.gender === '男'}}"/>
+        男
+      </label>
+      <label class="radio-item" for="female">
+        <radio id="female" value="男" checked="{{userInfo.gender === '女'}}"/>
+        女
+      </label>
+    </radio-group>
+  </view>
+  
+  <!-- 保存按钮 -->
+  <button class="save-btn" bindtap="saveSetting">保存</button>
+</view>

@@ -1,0 +1,19 @@
+<view class="converter-container">
+  <view class="title">进制转换</view>
+  <view class="input-container">
+    <input type="number" placeholder="请输入十进制数" bindinput="decimalInput" />
+    <button bindtap="convertToBinary">转换为二进制</button>
+    <button bindtap="convertToOctal">转换为八进制</button>
+    <button bindtap="convertToHex">转换为十六进制</button>
+    <input type="number" placeholder="请输入二进制数" bindinput="binaryInput" />
+    <input type="number" placeholder="请输入八进制数" bindinput="octalInput" />
+    <input type="number" placeholder="请输入十六进制数" bindinput="hexadecimalInput" />
+    <button bindtap="convertToDecimal">转换为十进制</button>
+  </view>
+  <view class="result-container">
+    <text>二进制结果：{{binaryResult}}</text>
+    <text>八进制结果：{{octalResult}}</text>
+    <text>十六进制结果：{{hexResult}}</text>
+    <text>十进制结果：{{decimalResult}}</text>
+  </view>
+</view>

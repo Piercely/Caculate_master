@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="displayArea">
+    {{displayData}}
+  </view>
+  <view class="calcPanel">
+    <view class="numsPanel">
+      <view class="numsPanelItem" wx:for="{{digits}}" wx:key="*this" wx:for-item="nums" bindtap="handleDigit" data-info="{{nums}}">
+        {{nums}}
+      </view>
+    </view>
+    <view class="opertorPanel">
+      <view class="opertorPanelItem" wx:for="{{operators}}" wx:key="*this" wx:for-item="operator" bindtap="handleDigit" data-info="{{operator}}">
+        {{operator}}
+      </view>
+    </view>
+  </view>
+</view>

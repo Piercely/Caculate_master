@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="form-group">
+    <input class="input" type="number" placeholder="请输入您的身高(cm)" bindinput="onHeightInput" value="{{height}}" />
+  </view>
+  <view class="form-group">
+    <input class="input" type="number" placeholder="请输入您的体重(kg)" bindinput="onWeightInput" value="{{weight}}" />
+  </view>
+  <button class="btn p-lr-20" bindtap="calculateBmi">计算BMI</button>
+  <!-- Display BMI result -->
+  <view class="result bg-white p-lr-20 pd-tb-10 m-top-xl" wx:if="{{showResult}}">
+    <view class="d-flex jc-between ai-center mb-10">
+      <text class="bmi-value">{{bmiValue}}</text>
+      <text class="label">BMI:</text>
+    </view>
+    <view class="fs-sm">{{healthAssessment}}</view>
+  </view>
+</view>

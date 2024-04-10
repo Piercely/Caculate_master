@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <image src="/assets/logo.png" mode="widthFix"></image>
+    <text class="title">微信小程序电脑常用快捷键</text>
+  </view>
+  <scroll-view scroll-y="true" style="height:calc(100vh - 240rpx);padding: 20rpx;" bindscrolltolower="loadMoreData">
+    <block wx:for="{{keyList}}" wx:key="*this">
+      <view class="item" hover-class="hover">
+        <text class="number">{{item.number}}</text>
+        <text class="describe">{{item.describe}}</text>
+      </view>
+    </block>
+  </scroll-view>
+</view>

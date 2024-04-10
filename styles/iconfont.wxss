@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3304507 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/font_3304507_5kejo3u0w2s.woff2?t=1651304509776') format('woff2'),
+       url('//at.alicdn.com/t/font_3304507_5kejo3u0w2s.woff?t=1651304509776') format('woff'),
+       url('//at.alicdn.com/t/font_3304507_5kejo3u0w2s.ttf?t=1651304509776') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wofabude-copy:before {
+  content: "\ec4d";
+}
+
+.icon-tubiaozhizuo-:before {
+  content: "\e605";
+}
+
+.icon-tiaoshishuruzhishifu:before {
+  content: "\e63b";
+}
+
+.icon-shezhi1:before {
+  content: "\e654";
+}
+
+.icon-tuijiangeipengyou:before {
+  content: "\e689";
+}
+
+.icon-dangqianbanben:before {
+  content: "\e612";
+}
+
+.icon-weixin:before {
+  content: "\e62f";
+}
+
+.icon-shiyongbangzhu:before {
+  content: "\e692";
+}
+
+.icon-yijianjianyi-copy:before {
+  content: "\ec47";
+}
+
+.icon-wodequnzu-copy-copy:before {
+  content: "\ec49";
+}
+
+.icon-kefu1-copy:before {
+  content: "\ec4a";
+}
+
+.icon-guanliyuan-yonghuchaxun-copy:before {
+  content: "\ec4b";
+}
+
+.icon-tongzhi:before {
+  content: "\e669";
+}
+
+.icon-kefu-copy:before {
+  content: "\ec4c";
+}

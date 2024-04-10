@@ -1,0 +1,14 @@
+<view class="container">
+  <text class="title">计算器工具盒</text>
+  <text class="sub-title">如何使用：</text>
+  <view class="instruction">
+    <text class="step">步骤1。</text> 通过点击按钮输入数字或运算符。
+
+    <text class="step">步骤2。</text> 每次操作后结果将自动显示。
+
+    <text class="step">步骤3。</text> 可以通过点击“C”键清空输入和结果。
+
+    <text class="step">步骤4。</text> 想再进行其他计算时，只需输入新的数字和运算符即可。
+
+  </view>
+</view>

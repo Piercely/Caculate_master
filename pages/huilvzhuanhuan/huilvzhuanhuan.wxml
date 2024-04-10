@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="form">
+    <view class="input-group">
+      <view class="label">From:</view>
+      <picker mode="selector" range="{{currencyList}}" value="{{fromIndex}}" bindchange="bindFromChange">
+        <view class="input">{{currencyList[fromIndex].name}}</view>
+      </picker>
+    </view>
+    <view class="input-group">
+      <view class="label">Denomination:</view>
+      <input type="number" placeholder="Enter the denomination." value="{{denomination}}" bindinput="bindDenominationInput"/>
+    </view>
+    <view class="input-group">
+      <view class="label">To:</view>
+      <picker mode="selector" range="{{currencyList}}" value="{{toIndex}}" bindchange="bindToChange">
+        <view class="input">{{currencyList[toIndex].name}}</view>
+      </picker>
+    </view>
+    <view class="output-group">
+      <view class="label">Output Denomination:</view>
+      <text class="output">{{outputDenomination}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="input-area">
+    <text>Enter value:</text>
+    <input type="number" bindinput="onInputEvent" />
+    <picker bindchange="onInputPickerChange" mode="selector" range="{{inputUnits}}">
+      <view class="input-unit-label">{{inputUnitName}}</view>
+    </picker>
+    <picker bindchange="onPickerChange" mode="selector" range="{{units}}" range-key="name">
+      <view class="main-unit-label">{{selectedUnit.name}}</view>
+    </picker>
+  </view>
+  <view class="output-area">
+    <block wx:if="{{results.length > 0}}">
+      <view class="result-item" wx:for="{{results}}" wx:key="index">
+        <text class="name">{{item.name}}:</text>
+        <text class="value">{{item.value}}</text>
+      </view>
+    </block>
+    <view class="no-result" wx:else>Please enter a value and choose a unit.</view>
+  </view>
+</view>
